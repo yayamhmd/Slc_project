@@ -5,13 +5,19 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Confirmation and History</title>
+    <title>History</title>
+    
        
 </head>
 <body>
-    <div class="container">
-        
-    </div>
+    
+    <form action="history_db" method="$_POST">
+        <div>
+
+        </div>
+    </form>
+</body>
+</html>
 
 </body>
 </html>

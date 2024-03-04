@@ -15,11 +15,11 @@
     </div>
     <form action="register_db.php" method="POST">
         <div class="input-group"> 
-            <label for="exampleInputusername" class="form-label">ชื่อ-สกุล</label>
+            <label for="exampleInputusername" class="form-label">ชื่อ-สกุล:</label>
             <input type="text" name="username"  class="form-control"  required><br>
         </div>
         <div class="input-group">
-            <label for="student_id" class="form-label"></label>
+            <label for="student_id" class="form-label">รหัสนักศึกษา:</label>
             <input type="text" name="student_id"  class="form-control" placeholder="รหัสนักศึกษา"><br></div>
         <div class="input-group">
             <label for="email" class="form-label">Email</label>

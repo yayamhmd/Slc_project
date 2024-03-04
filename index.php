@@ -2,8 +2,7 @@
 <?php 
    session_start();
    include('server.php')
-
-
+  
 ?>
 
 <!DOCTYPE html>
@@ -23,7 +22,9 @@
             echo $_SESSION['username'];
             ?> <?php endif?>
     </div>
-    <section class="header">
+   
+        
+   
         <div class="content">
         <img src="./img/psu_logo_01.jpg" alt="slc tutoring 2" width="150">
             <h2>SCL Smart Learning Center ศูนย์เรียนรู้ส้างสรรค์</h2>
@@ -35,15 +36,13 @@
         <div>
             <ul class="ps-0 ms-0">
             <li><a href="index.php">Home</a></li>
-            <li><a href="booking.php">Room</a></li>
+            <li><a href="booking.php<?php if(isset($_SESSION['studentid'])): ?>?studentid=<?php echo $_SESSION['studentid']; ?><?php endif; ?>">Room</a></li>
+
             <li><a href="history">History</a></li>
         </ul>
      </div>
      
 
-    </section>
-   
-    
 
 
 </body>

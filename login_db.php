@@ -29,6 +29,8 @@
                 $row = $result->fetch_assoc();
                 $_SESSION['username'] = $row['username'];
                 $username = $_SESSION['username'];
+                $_SESSION['studentid'] = $row['student_id'];
+               
                 $_SESSION['success'] = "You are now logged in";
                 header("location:index.php");
                 exit();
