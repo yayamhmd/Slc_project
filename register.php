@@ -15,15 +15,15 @@
     </div>
     <form action="register_db.php" method="POST">
         <div class="input-group"> 
-            <label for="exampleInputusername" class="form-label">ชื่อ-สกุล</label>
-            <input type="text" name="username"  class="form-control"  required><br>
+            <label for="exampleInputusername" class="form-label">ชื่อ-นามสกุล:</label>
+            <input type="text" name="username"  class="form-control" placeholder="ชื่อ-นามสกุล" required><br>
         </div>
         <div class="input-group">
-            <label for="student_id" class="form-label"></label>
+            <label for="student_id" class="form-label">รหัสนักศึกษา:</label>
             <input type="text" name="student_id"  class="form-control" placeholder="รหัสนักศึกษา"><br></div>
         <div class="input-group">
             <label for="email" class="form-label">Email</label>
-            <input type="email" name="email" class="form-control" require><br>
+            <input type="email" name="email" class="form-control" placeholder="Email" require><br>
         </div>
         <div class="input-group">
             <label>สาขา:</label>
@@ -43,7 +43,7 @@
         </div>
         <div class="input-group">
             <label for="password_2">Password</label>
-            <input type="password" name="password"  class="form-control">
+            <input type="password" name="password"  class="form-control" placeholder="password">
         </div>
         
         <div class="mb-3">

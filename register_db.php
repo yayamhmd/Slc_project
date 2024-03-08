@@ -14,8 +14,10 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST['reg'])) {
     // บันทึกข้อมูลในฐานข้อมูล
     $sql = "INSERT INTO user (username, student_id, email, password, branch) VALUES ('$username', '$student_id', '$email', '$password', '$branch')";
 
+
     if ($conn->query($sql) === TRUE) {
-        echo "alert('ลงทะเบียนสำเร็จ เข้าสู่ระบบเลย')";
+        echo "alert($sql1)";
+        //echo "alert('ลงทะเบียนสำเร็จ เข้าสู่ระบบเลย')";
         header('location: login.php');
         // สามารถทำการเข้าสู่ระบบทันทีหลังจากการลงทะเบียน
         exit; // ใส่ exit เพื่อหยุดการทำงานของสคริปต์ทันทีหลังจากทำการ redirect

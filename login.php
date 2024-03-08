@@ -15,7 +15,9 @@
     <div class="header">
         <h2>Login</h2>
     </div>
+    <img src="./img/3477.jpg" alt="psu passprot" width="200">
     <form action="login_db.php" method="POST">
+    
         <div class="innput-group">
             <input type="text" name="studentid"  class="form-control" placeholder="PSU PASSPORT ACCOUNT NAME">
 
