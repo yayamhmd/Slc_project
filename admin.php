@@ -14,11 +14,13 @@
     <h1>Login</h1>
     <img src="./img/3477.jpg" alt="psu passport" width="200">
     <form action="admin_db.php" method="post">
-        <label for="username">Username:</label>
-        <input type="text" id="username" name="username" required>
-        <label for="password">Password:</label>
-        <input type="password" id="password" name="password" required>
-        <input type="submit" value="Login">
+        <div class="innput-group">
+            <input type="text" id="username" name="username" placeholder="Username" required>
+        
+            <input type="password" id="password" name="password"  placeholder="password" required>
+            <input type="submit" value="Login">
+        </div>
+        
     </form>
 </div>
 
