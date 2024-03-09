@@ -22,18 +22,16 @@
     <?php include('./template/menu.php');
    
    ?>
-</div>
-   
-
-        <!-- <h2>มหาวิทยาลัยสงขลานครินทร์</h2>
-        <h2>คณะวิทยาการจัดการ</h2> -->
-        <!-- <h2>SCL Smart Learning Center ศูนย์เรียนรู้สร้างสรรค์</h2> -->
-        </div>
+   </div>
+    <!-- <h2>มหาวิทยาลัยสงขลานครินทร์</h2>
+    <h2>คณะวิทยาการจัดการ</h2> -->
+    <!-- <h2>SCL Smart Learning Center ศูนย์เรียนรู้สร้างสรรค์</h2> -->
+    </div>
     <div class="name">
         <?php if(isset($_SESSION['username'])):?>
         <?php
-            echo $_SESSION['username'];
-            ?> <?php endif?>
+        echo $_SESSION['username'];
+        ?> <?php endif?>
     </div>
     
        
